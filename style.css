@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#my-photo {
+    width: 25%;
+}
+
+#message {
+    height: 100px;
+    resize: none;
+}
+
+@media (max-width: 992px) {
+    #my-photo {
+        width: 50%;
+    }
+}
